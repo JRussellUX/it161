@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements by Jennifer Russell</title>
+    <!-- Start styles here-->
+    <style>
+        img {
+            float: left;
+            margin: 1em;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: green;
+            background-color: white;
+            text-decoration: none;
+        }
+
+        footer {
+            clear: both;
+        }
+
+        table, th, td {
+            border: 1px solid;
+            border-collapse:collapse;
+        }
+
+    </style>
+    <!-- End styles here-->
+</head>
+<body>
+    <header>
+        <h1>HTML Elements by Jennifer Russell</h1>
+        <nav>
+            <a href="https://www.w3.org/" target="_blank">W3C</a> |
+            <a href="https://whatwg.org" target="_blank">WHATWG</a> |
+            <a href="https://www.w3schools.com" target="_blank">W3 Schools</a> |
+            <a href="https://linkedin.com/learning/login" target="_blank">Linkedin Learning</a>
+        </nav>
+    </header>
+        <p>This page demonstrates some of the default behaviors of HTML elements.</p>
+
+        <div>
+            <ul>
+                <li>Avatar</li>
+                <li>Jaws</li>
+                <li>Mario Bros</li>
+            </ul>
+         </div>
+
+         <div>
+            <ol>
+                <li>Strawberry</li>
+                <li>Blueberry</li>
+                <li>Mango</li>
+            </ol>
+         </div>
+
+         <p><img src="https://picsum.photos/200/300" alt="Lorempics"></p>
+         <p>Pictures provided by <a href="https://lorempicsum.photos" target="_blank">Lorem Picsum</a></p>
+
+        <p>This is how the <strong>strong</strong> tag works.</p>
+        <p>This is how the <em>em</em> tag works.</p>
+        <p>This is how the <strike>strike</strike> tag works.</p>
+
+        <div>This is text inside a div. <span style="background-color: yellow;">This is text inside a span</span></div>
+
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Jean</td>
+                <td>Doe</td>
+                <td>jean@example.com</td>
+            </tr>
+         </table>
+
+        <footer>
+            <p><small>&copy; 2023 by 
+                Jennifer Russell, All Rights Reserved ~ 
+                <a id="html-checker" href="#">Check HTML</a> ~ 
+                <a id="css-checker" href="#">Check CSS</a></small>
+           </p>
+          </footer>
+        <script>
+          //https://tinyurl.com/dynamic-html-checker
+          document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            
+          document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+       </script>
+    
+    
+</body>
+</html>
