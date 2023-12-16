@@ -1,0 +1,368 @@
+/* Global CSS Rules */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Roboto&display=swap');
+
+html {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.top-center {
+    position: absolute;
+    top: 8px;
+    left: 47%;
+    width: 6%;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* CSS for Nav and header */
+header {
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: .5px solid #D9BFA0;
+}
+
+h1.page-header {
+    font-family: serif;
+    color: #d9ae5f;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    width: 40%;
+    text-decoration: none;
+}
+
+h1.page-header a {
+    text-decoration: none;
+    color: #d9ae5f;
+}
+
+.topnav {
+    margin: auto;
+    overflow: auto;
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    font-family: 'Neuton', serif;
+    color: #8c4e03;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.topnav a:hover,
+.active {
+    text-decoration: underline;
+    color: #e0ae71;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* CSS for Body */
+
+.wrapper {
+    clear: both;
+    position: relative;
+}
+
+#wrap {
+    margin: 0;
+    position: static;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.floatright {
+    float: right;
+    margin-left: 1.5em;
+}
+
+
+
+.clear-break {
+    clear: both;
+}
+
+hr {
+    border-style: solid;
+    color: #D9BFA0;
+}
+
+main {
+    overflow: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+/* CSS for typography */
+h2,
+h3,
+h4 {
+    text-align: left;
+    color: #d9ae5f;
+    font-family: 'Neuton', serif;
+}
+
+.left-header {
+    text-align: left;
+}
+
+.center-header {
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CSS for Event Page */
+
+.event-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: block;
+    width: 40%;
+    height: auto;
+
+}
+
+.center-ul li {
+    list-style-type: none;
+}
+
+.event-h3 {
+    padding-left: 20px;
+}
+
+/* End CSS for event page */
+
+/* For Classes Page */
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
+.center-card {
+    margin: auto;
+    width: 880px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.card-img {
+    width: 400px;
+}
+
+/* end classes page */
+
+img {
+    width: 500px;
+    height: 375px;
+}
+
+img.fullimg {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS for gallery */
+
+div.gallery {
+    margin: 5px;
+    margin-top: 20px;
+    border: 1.5px solid #d9ae5f;
+    float: left;
+    width: 280px;
+}
+
+div.gallery:hover {
+    border: 1.5px solid #d9ae5f;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Form CSS */
+form {
+    width: 80%;
+    margin: 30px auto;
+}
+
+legend {
+    color: #c89f53;
+    font-weight: bold;
+}
+
+fieldset {
+    padding: 10px;
+    border: #d9ae5f 1px solid;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #c79f53;
+}
+
+input[type=text],
+input[type=email] {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    padding: 2px;
+    background-color: #f7d2a6;
+    color: black;
+    font-weight: normal;
+}
+
+textarea {
+    width: 95%;
+    resize: none;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#thanks {
+    text-align: center;
+    font-size: 1em;
+}
+
+/* CSS for Footer */
+
+footer {
+    clear: both;
+    padding: 1em;
+    text-align: center;
+}
+
+.bottom-center-home {
+    position: absolute;
+    color: #f2f2f2;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Responsive rules - apply when screen width is less than 1200px */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    .topnav {
+        width: 40%;
+        padding-top: 20px;
+    }
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+    h1.page-header {
+        float: none;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .topnav {
+        clear: both;
+        float: none;
+        margin: auto;
+        width: fit-content;
+    }
+
+    img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .center-card {
+        margin: auto;
+        width: 440px;
+    }
+
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+    h1.page-header {
+        float: none;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .topnav {
+        clear: both;
+        float: none;
+        margin: auto;
+        width: fit-content;
+        background-color: #f7d2a6;
+    }
+
+    .topnav a {
+        padding: 8px 8px;
+    }
+
+    img {
+        width: 300px;
+        height: 225px;
+    }
+
+    .center-card {
+        margin: auto;
+        width: 440px;
+    }
+}
